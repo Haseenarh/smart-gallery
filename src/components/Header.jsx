@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 const Header = () => {
   return (
-    <div className='bg-bg-orange w-full p-6'>
-      <h1 className='text-black text-2xl font-extrabold'>Smart Gallery by H.B.</h1>
+    <div style={{ backgroundColor: "#2D3748", width: "100%", padding: "15px" }}>
+      <h1 style={{ color: "#FFFFFF", fontSize: "1.6rem", fontWeight: "700" }}>
+        Smart Gallery
+      </h1>
     </div>
   )
 }
 
-export default Header
+export default Header;
